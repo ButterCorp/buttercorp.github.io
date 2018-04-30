@@ -31,3 +31,18 @@ canvas {
   color : grey;
   background-color: #ffd700;
 }
+.younes-block {
+  position : absolute;
+  top: 10%;
+  left : 10%;
+  z-index: 99;
+}
+.card {
+  width: 300px;
+}
+.card p {
+  font-size: 17px;
+}
+.card .card-title {
+  font-size: 50px;
+}
