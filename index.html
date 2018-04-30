@@ -6,14 +6,27 @@
 	<meta name="author" content="Buttercorp">
 	<title>IBS development</title>
 	<link rel="stylesheet" href="css/style.css">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+
 	</head>
 	
 	<body>
-	
+		<div class="centered-block">
+			<a href="https://github.com/ButterCorp" id="download-button" class="btn-large waves-effect waves-light">Get Started</a>
+		</div>
+		<div class="form-block">
+
+		</div>
 		<!-- particles.js container -->
 		<div id="particles-js"></div>
-		
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="js/materialize.min.js"></script>
+		<!--Particles js-->
 		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<!--Velocity js-->
+		<script src="js/velocity.min.js"></script>
 		<script>
 			/* ---- particles.js config ---- */
 
@@ -128,4 +141,9 @@
 			  "retina_detect": true
 			});
 		</script>
+	<script>
+		var block = document.getElementsByClassName('centered-block');
+		block.velocity("fadeIn", { duration: 1500 });
+
+	</script>
 	</body>
